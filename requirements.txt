@@ -1,0 +1,10 @@
+# Python 3.10.20; verified on macOS arm64
+numpy==1.23.5
+scipy==1.15.3
+matplotlib==3.10.9
+tensorflow-macos==2.10.0; sys_platform == "darwin" and platform_machine == "arm64"
+tensorflow==2.10.0; sys_platform != "darwin" or platform_machine != "arm64"
+keras==2.10.0
+notebook==7.5.6
+ipykernel==7.2.0
+protobuf==3.19.6
